@@ -1,0 +1,20 @@
+.card {
+    width: 300px;
+    border: 1px solid #ff0000;
+    display: flex;
+}
+
+.card__img{
+    float: left;
+    border-radius: 50%;
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__content div{
+    width: 100%;
+    background-color: black;
+}

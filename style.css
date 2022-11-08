@@ -3,7 +3,8 @@
     border: 1px solid #ff0000;
     display: flex; /* чтобы браузер красиво посчитал отступы */
     flex-direction: column;
-    padding: 5px;
+    justify-content: space-between;
+    padding: 5px 0 0;
 }
 .card__img-content{
     display: flex;
@@ -26,13 +27,13 @@
 /* buttons */
 .card__buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .card a {
     text-decoration: none;
     color: #aaa;
     width: 30%;
-    margin: 5px 0;
+    margin: 5px 0 0;
     text-align: center;
     font-size: 10px;
 }

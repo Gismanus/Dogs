@@ -1,19 +1,19 @@
 .card {
     width: 300px;
     border: 1px solid #ff0000;
-    display: flex;
+    display: flex; /* чтобы браузер красиво посчитал отступы */
 }
 
 .card__img{
-    float: left;
+    float: left;/* чтобы картинка была слева, а остальное - справа */
     border-radius: 50%;
 }
 .card__content{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column; /* чтобы строки снова выстроились друг под другом */
+    justify-content: space-between;/* чтобы равномерно распредилились по высоте */
 }
-
+/* Следующий стиль применяется только к div'ам внутри блока card__content */
 .card__content div{
     width: 100%;
     background-color: black;

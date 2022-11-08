@@ -2,6 +2,7 @@
     width: 300px;
     border: 1px solid #ff0000;
     display: flex; /* чтобы браузер красиво посчитал отступы */
+
 }
 
 .card__img{
@@ -12,9 +13,9 @@
     display: flex;
     flex-direction: column; /* чтобы строки снова выстроились друг под другом */
     justify-content: space-between;/* чтобы равномерно распредилились по высоте */
+    margin-left: 10px;
 }
 /* Следующий стиль применяется только к div'ам внутри блока card__content */
 .card__content div{
     width: 100%;
-    background-color: black;
 }

@@ -1,5 +1,5 @@
 .card {
-    width: 300px;
+    width: 800px;
     border: 1px solid #ff0000;
     display: flex; /* чтобы браузер красиво посчитал отступы */
 
@@ -7,6 +7,7 @@
 
 .card__img{
     float: left;/* чтобы картинка была слева, а остальное - справа */
+    width: 20%;
     border-radius: 50%;
 }
 .card__content{

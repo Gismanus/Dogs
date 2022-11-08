@@ -3,6 +3,7 @@
     border: 1px solid #ff0000;
     display: flex; /* чтобы браузер красиво посчитал отступы */
     flex-direction: column;
+    padding: 5px;
 }
 .card__img-content{
     display: flex;

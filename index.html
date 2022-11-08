@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,24 @@
     <title>Dogs</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="card"> <!-- Блок, который можно положить в любое место сайта -->
-        <img class="card__img" src="img_sqr.png" alt=""><!-- Картинка-->
-        <div class="card__content"> <!-- блок с остальным контентом, чтобы применить flex-box-->
-            <div class="card__breed">Breed=Dog</div>
-            <div class="card__age">Age=7</div>
-            <div class="card__description">This dog is very kind and owesome</div>
+    <div class="card">
+        <!-- Блок, который можно положить в любое место сайта -->
+        <div class="card__img-content">
+            <img class="card__img" src="img_sqr.png" alt=""><!-- Картинка-->
+            <div class="card__content">
+                <!-- блок с остальным контентом, чтобы применить flex-box-->
+                <div class="card__breed">Breed=Dog</div>
+                <div class="card__age">Age=7</div>
+                <div class="card__description">This dog is very kind and awesome</div>
+            </div>
+        </div>
+        <div class="card__buttons">
+            <a href="#" class="card__button">Follow</a>
+            <a href="#" class="card__button">Delete</a>
         </div>
     </div>
 </body>
+
 </html>
